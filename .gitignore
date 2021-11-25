@@ -105,3 +105,4 @@ dist
 
 # Azure App Service
 .azure
+.vscode
