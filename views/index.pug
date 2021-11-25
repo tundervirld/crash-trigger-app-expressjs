@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .left
+    .btn-bug
+      button#btn-crash-trigger Throw a bug💥
+    .btn-clock
+      button#btn-clock-trigger ⏱️ Press each 1sg
+    p Log:
+    textarea#log-section(name='textarea' rows='10' cols='50')
+  .right
+    h3#msm-section
