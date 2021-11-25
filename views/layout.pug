@@ -1,7 +1,15 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width')
+    title Crash JS App
+    link(href='/stylesheets/index.css' rel='stylesheet' type='text/css')
   body
-    block content
+    #container
+      #header
+        h1#hello Crash Trigger APP!
+      #body
+        block content    
+    script(src='/javascripts/index.js' rel='javascripts' type='text/javascript' )
+    
