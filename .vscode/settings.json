@@ -1,4 +1,0 @@
-{
-    "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/de38c2d8-3d08-4262-8d58-70e282fe864a/resourceGroups/BCIRG3ARQ-LAV-ROREYEM-EASTUS2/providers/Microsoft.Web/sites/crash-trigger-app-expressjs"
-}
