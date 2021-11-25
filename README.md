@@ -20,7 +20,8 @@ az config set defaults.group=[name RG] defaults.location=[Name Location eastus2 
 az webapp up --name ${PWD##*/} --os-type Windows --sku F1 --logs --launch-browser
 
 #configure env variable to restart app each upload
-az webapp config appsettings set --name ${PWD##*/} --settings SCM_DO_BUILD_DURING_DEPLOYMENT=true
+az webapp config appsettings set --name ${PWD##*/} --settings SCM_DO_BUILD_DURING_DEPLOYMENT=true LDCLIENTID=[Launchdarkly SDKs using Client-side ID]
+FFLDKEY=[FEature Flag Key]
 ```
 The app will be abailable in azure in format: `https://[your app name].azurewebsites.net`
 
